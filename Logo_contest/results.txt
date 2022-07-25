@@ -1,0 +1,9 @@
+# Results
+CocaCola AP: 0.924;
+Heineken AP: 0.894;
+Marlboro AP: 0.820;
+Starbucks AP: 0.942;
+mAP: 0.902.
+
+# Approach
+I used differents SIFT detectors and ratio threshold for each query. I changed the sigma, n_features, edgeThreshold and contrastThresholdin at each SIFT detector.
