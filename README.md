@@ -18,3 +18,18 @@ a Long short-term memory (LSTM) NN because it can keep
 track of the dependencies between sequence elements. We
 decided to divide the project into these two parts because
 we use different working methods.
+
+## Optimization
+Addressing a semi-supervised learning problem.
+We have to simulate a scenario where we have high number of data
+where only few of them are labelled. The goal is to assign
+to all points the right labels by some optimization algorithm.
+
+We simulated this case generating two clouds of points
+on the plane and randomly choosing few of them to create
+the labelled set of points. Then we used methods such as
+Gradient Descent, Randomized Block Coordinate Gradient
+Descent (BCGD) and Cyclic BCGD with blocks of dimension 1. 
+The goal is to properly classify all the points between the two sets and test the accuracy of the implemented
+methods. After this first part we tested the methods on a
+real dataset for a problem of gender classification.
